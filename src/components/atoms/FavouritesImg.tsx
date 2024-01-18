@@ -7,6 +7,6 @@ const StyledFavouritesImage = styled.img`
 
 export const FavouritesImg = () => {
   return (
-    <StyledFavouritesImage src="/img/icons/heart.svg" alt="Heart" />
+    <StyledFavouritesImage src="https://o-drozzdyk.github.io/SpdLoadTask/img/icons/heart.svg" alt="Heart" />
   );
 };
