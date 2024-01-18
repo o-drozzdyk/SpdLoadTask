@@ -2,6 +2,7 @@
   "name": "spdload-test-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://o-drozzdyk.github.io/SpdLoadTask/",
   "dependencies": {
     "@apollo/client": "^3.8.9",
     "@testing-library/jest-dom": "^5.17.0",
