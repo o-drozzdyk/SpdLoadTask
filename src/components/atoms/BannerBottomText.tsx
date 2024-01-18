@@ -1,13 +1,14 @@
 import styled from 'styled-components';
+import { Link } from 'react-scroll';
 
-const StyledContainer = styled.a`
+const StyledContainer = styled(Link)`
   display: flex;
   gap: 8px;
   justify-content: center;
   align-items: center;
   margin-top: 57px;
   text-decoration: none;
-  scroll-behavior: smooth;
+  cursor: pointer;
 `;
 
 const StyledText = styled.span`
@@ -28,7 +29,7 @@ const StyledImage = styled.img`
 
 export const BottomText = () => {
   return (
-    <StyledContainer href="#tours">
+    <StyledContainer to="tours" smooth={true} duration={300}>
       <StyledText>
         Explore tours
       </StyledText>
