@@ -33,7 +33,8 @@ export const BottomText = () => {
         Explore tours
       </StyledText>
 
-      <StyledImage src="./img/icons/arrow-down.svg" alt="Arrow down" />
+      <StyledImage src="/img/icons/arrow-down.svg" alt="Arrow down" />
+      {/* <StyledImage src="./img/icons/arrow-down.svg" alt="Arrow down" /> */}
     </StyledContainer>
   );
 };
