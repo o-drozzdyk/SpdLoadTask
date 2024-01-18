@@ -9,7 +9,7 @@ export const Logo = () => {
   return (
     <Link to='/'>
       {/* <StyledLogo src="/img/logo.svg" alt="Logo" /> */}
-      <StyledLogo src="<https://o-drozzdyk.github.io/SpdLoadTask/img/logo.svg" alt="Logo" />
+      <StyledLogo src="https://o-drozzdyk.github.io/SpdLoadTask/img/logo.svg" alt="Logo" />
     </Link>
   );
 }
