@@ -7,6 +7,6 @@ const StyledDeleteImage = styled.img`
 
 export const DeleteImg = () => {
   return (
-    <StyledDeleteImage src="/img/icons/delete.svg" alt="Delete" />
+    <StyledDeleteImage src="https://o-drozzdyk.github.io/SpdLoadTask/img/icons/delete.svg" alt="Delete" />
   );
 };
